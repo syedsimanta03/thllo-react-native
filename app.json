@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Thallo",
+    "slug": "Thallo",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./App/assets/icon.png",
+    "splash": {
+      "image": "./App/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fd7833"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.seveneleven.allo",
+      "buildNumber": "2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./App/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.seveneleven.allo",
+      "versionCode": 2,
+	  "permissions": []
+    },
+    "web": {
+      "favicon": "./App/assets/favicon.png"
+    }
+  }
+}
